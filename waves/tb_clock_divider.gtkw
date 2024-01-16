@@ -1,0 +1,34 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Dec 12 22:36:10 2023
+[*]
+[dumpfile] "/foss/designs/clock_divider/src/tb_clock_divider.vcd"
+[dumpfile_mtime] "Tue Dec 12 22:30:30 2023"
+[dumpfile_size] 1626
+[savefile] "/foss/designs/clock_divider/waves/tb_clock_divider.gtkw"
+[timestart] 0
+[size] 1680 985
+[pos] 0 0
+*-5.917697 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_clock_divider.
+[sst_width] 228
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 296
+@28
+tb_clock_divider.clock_divider_0.clk_in
+tb_clock_divider.clock_divider_0.clk_out
+tb_clock_divider.clock_divider_0.nrst
+tb_clock_divider.clock_divider_0.signal_clk_out
+@420
+tb_clock_divider.clock_divider_0.count
+tb_clock_divider.clock_divider_0.CONST
+tb_clock_divider.clock_divider_0.WIDTH
+@24
+tb_clock_divider.clock_divider_0.true_scale[15:0]
+@22
+tb_clock_divider.clock_divider_0.scale[7:0]
+@23
+tb_clock_divider.clock_divider_0.scale_reg[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
