@@ -9,14 +9,14 @@ module clock_divider
 );
   integer count ; // counter
   integer CONST = 2 ;// 200000 ; // CONSTANT to multiply the 'scale'
-  reg  [WIDTH-1:0] scale_reg ; // register to save the scale_reg when reset is triggered
-  reg  [15:0] true_scale ; // the 'true' scale defined as 'scale_reg * CONST'
+  //reg  [WIDTH-1:0] scale_reg ; // register to save the scale_reg when reset is triggered
+  reg  [31:0] true_scale ; // the 'true' scale defined as 'scale_reg * CONST'
   reg signal_clk_out ; // register to save the clk_out and send it to this port
 
   initial begin
       signal_clk_out = 0 ;
       count = 0 ;   
-      scale_reg [WIDTH-1:0] = scale ;
+      //scale_reg [WIDTH-1:0] = scale ;
       signal_clk_out = 0 ;
   end
 
@@ -24,7 +24,7 @@ module clock_divider
     if (!nrst) begin
       signal_clk_out <= 0 ;
       count <= 0 ;
-      scale_reg <=  scale; // set the scale to a internal register scale_reg when update_scale is triggered
+  //    scale_reg <=  scale; // set the scale to a internal register scale_reg when update_scale is triggered
       true_scale <= scale*CONST ; // update the true scale
     end
     else begin
