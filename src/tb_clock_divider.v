@@ -34,13 +34,15 @@ initial begin
     clk_in = 0; //initializing the clock 
     # 11
     nrst = 0; // reseting the clock_divider
-    # 2
+    //# 2
+    # 10
     nrst = 1;
     # 1
     scale = 6;
     # 150
     nrst = 0;
-    # 1
+    //# 1
+    # 15
     nrst = 1;
 end
 
