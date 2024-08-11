@@ -37,13 +37,14 @@ initial begin
     //# 2
     # 10
     nrst = 1;
-    # 1
+    # 149
     scale = 6;
-    # 150
+    # 1
     nrst = 0;
     //# 1
     # 15
     nrst = 1;
+    
 end
 
 // Clock signal
